@@ -10,7 +10,7 @@ const addResourcesToCache = async (resources) => {
       console.log("Installing...");
     event.waitUntil(
       addResourcesToCache([
-        "/",
+        
         "/index.html",
         "/css/style.css",
         "app.js",
